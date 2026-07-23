@@ -34,7 +34,7 @@ shared_crypto = { git = "https://github.com/MystenLabs/sui", tag = "mainnet-v1.6
 
 [dev-dependencies]
 testcontainers = "=0.25.0"
-sui-json-rpc-types = { git = "https://github.com/mystenlabs/sui", rev = "22642cf", package = "sui-json-rpc-types" }
+sui-json-rpc-types = { git = "https://github.com/MystenLabs/sui", tag = "mainnet-v1.68.1", package = "sui-json-rpc-types" }
 
 [features]
 default = ["client", "rustls-tls", "native-sui-sdk"]
